@@ -1,0 +1,1 @@
+This is a repo designed to explore machine learning techniques for stocks
