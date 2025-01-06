@@ -6,7 +6,7 @@ import re
 from datetime import datetime
 from utils import data_string_to_float
 from tqdm import tqdm
-from typing import Any, Dict, List
+from typing import List
 
 class FundamentalsStats:
 
@@ -95,7 +95,7 @@ class FundamentalsStats:
                                     new_variable = ">Average Volume (3 month)"
                                     regex = (
                                             re.escape(new_variable) + r".*?(\-?\d+\.*\d*K?M?B?|N/A[\\n|\s]*|>0)%?"
-                    r"(</td>|</span>)"
+                                                                      r"(</td>|</span>)"
                                     )
                                     value = re.search(regex, source, flags=re.DOTALL).group(1)
                                     value_list.append(data_string_to_float(value))
