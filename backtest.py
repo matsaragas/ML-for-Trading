@@ -38,7 +38,7 @@ def backtest():
 
     # Generate the train set and test set by randomly splitting the dataset
     X_train, X_test, y_train, y_test, z_train, z_test = train_test_split(
-        X, y, z, test_size=0.2, shuffle = False)
+        X, y, z, test_size=0.2, shuffle=False)
 
     clf = RandomForestClassifier(n_estimators=100, random_state=0)
     clf.fit(X_train, y_train)
