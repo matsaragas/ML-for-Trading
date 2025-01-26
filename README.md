@@ -11,6 +11,6 @@ shareholders, including institutional investors and company insiders.
 * **Trailing P/E** (Price-to-Earnings Ratio) is a valuation metric that 
 compares a company's current stock price to its earnings per share (EPS)
   over the past 12 months (trailing 12 months)
-  $$Traling PE = $$. It provides insights into how much investors are willing to pay each 
+  `Traling PE = current stock price / EPS over the last 12 months`. It provides insights into how much investors are willing to pay each 
   for each dollar of earnings the company generated in the past
   
