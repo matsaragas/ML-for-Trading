@@ -30,8 +30,15 @@ per share (EPS) over the next 12 months or a specified future period. Unlike the
   
 
 * **PEG Ratio (Price/Earnings-to-Growth Ratio)** is a valuation metric that adjusts the traditional (P/E) by factoring in a company's 
-earning growth rate. It provides a more concrete picture on whether a stock is overvalued or undervalued by considering how fast the company's earning are expected to grow.
+earning growth rate. It provides a more concrete picture on whether a stock is overvalued or undervalued by considering 
+  how fast the company's earning are expected to grow. `PEG Ratio = PE Ratio / Earnings Growth Rate (%)`, where `Earnings Growth Rate (%)` is the 
+  expected annual growth rate of the company's earning, expresses as a percentage. If `PEG = 1`: the stock is fairly valued relative to its growth.
+  If `PEG < 1`, the stock is undervalued relative to its growth potential. `PEG > 1` indicates that the stock is overvalued relative to its growth.
   
+  
+* **Price/Sales (P/S)** ratio is a financial evaluation metric that compares a company's market cap (or stock price) to its
+total revenue (sales). It shows how much investors are willing to pay for each dollar of a companies sales and is commonly used to evaluate 
+  companies, particular those in industries where earning maybe inconsistent or nonexistent (e.g., startups or tech companies). 
+  `P/S Ratio = MArket Cap / Total Revenue`, where `Market Cap = Stock Price x Number of Shares Outstanding` 
   
 
-  
